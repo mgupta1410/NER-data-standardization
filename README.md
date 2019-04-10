@@ -1,4 +1,4 @@
-A repository for converting popular NER datasets to CoNLL formats.
+A repository for converting popular NER datasets to CoNLL format.
 
 # Ontonotes 5.0
 
@@ -10,9 +10,9 @@ A repository for converting popular NER datasets to CoNLL formats.
 * The link to the resource would be mailed to you. Download and unpack the Ontonotes release. 
 * Verify the directory structure by running the command - 
 
-``
+```
 $ tree -L 3 -d ontonotes-release-5.0/data/files/data/
-``
+```
 ```
 ontonotes\_5/data/files/data/
 ├── arabic
