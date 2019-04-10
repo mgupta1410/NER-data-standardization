@@ -117,4 +117,14 @@ conll-formatted-ontonotes-5.0-12
 
 * More information about the format can be found here - http://cemantix.org/data/ontonotes.html 
 
-# TempEval
+## Recovering words
+
+* The orginal repo only contains the \*\_skel files, which have the orginal words masked. The script `skeleton2shell.sh` produces \*\_gold files that have contains unmasks words recovered from OntoNotes 5.0. The script assumes that python 2.x in your system is run by `python2`. If that is not the case, please make the corresponding change in the script. Run the follwing command -
+``
+$ ./scripts/skeleton2conll.sh -D ontonotes-release-5.0/data/files/data conll-formatted-ontonotes-5.0-12/conll-formatted-ontonotes-5.0
+``
+# _Coming Soon!_
+
+## TempEval-3.0 to CoNLL format
+## KBP 2018 to CoNLL format
+## Converting to BIO scheme
